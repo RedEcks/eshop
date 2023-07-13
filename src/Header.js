@@ -10,7 +10,7 @@ function Header(){
                 <h3 className='header-title'>Grandma's Bakery</h3>
             </div>
             <div className='header-search'>
-                <input type='text' className='header-search'/>
+                <input type='text' className='search'/>
                 <img src="https://cdn-icons-png.flaticon.com/512/954/954591.png" className='header-search-icon' width="20" height="20" alt=''/>
             </div>
             <div className='header-nav'>
@@ -20,7 +20,7 @@ function Header(){
                 </div>
                 <div className='nav-item'>
                     <span className='shopping-cart'>Your Cart</span>
-                    <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" className='shopping-cart-logo' width="35" height="35" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" className='shopping-cart-logo' width="30" height="30" alt="" />
                     <span className='nav-itemNumber'>0</span>
                 </div>
             </div>
