@@ -4,7 +4,7 @@ import "./Header.css"
 function Header(){
 
     return (
-        <div>
+        <div className="header">
             <div className='header_logo'>
                 <img src="https://media.istockphoto.com/id/1189778189/vector/grandma-or-granny-mascot-character-cartoon-design-vector-format.jpg?s=612x612&w=0&k=20&c=tsQ6g2tZ325WP26Qyx_XberGvr3qpADeUTJJPPmCydM=" className='header_logo' alt="" />
                 <h3 className='header-title'>Grandma's Bakery</h3>
