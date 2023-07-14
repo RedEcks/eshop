@@ -65,7 +65,7 @@
     font-size: medium;
     margin-top: 10px;
     margin-bottom: 0px;
-    
+    color: aliceblue;
 }
 
 .sign-in{ 
@@ -76,6 +76,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 15px;
+    color: aliceblue;
 }
 
 .shopping-cart{
@@ -85,7 +86,7 @@
     padding: 0px;
     font-size: 13px;
     font-weight: 500;
-
+    color: aliceblue;
 }
 
 .shopping-cart-logo{
@@ -101,4 +102,5 @@
     margin-right: 10px;  
     margin-top: 0px;
     margin-bottom: 0px;
+    color: aliceblue;
 }

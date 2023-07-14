@@ -6,7 +6,7 @@ function Header(){
     return (
         <div className="header">
             <div className='header-logo'>
-                <img src="https://media.istockphoto.com/id/1189778189/vector/grandma-or-granny-mascot-character-cartoon-design-vector-format.jpg?s=612x612&w=0&k=20&c=tsQ6g2tZ325WP26Qyx_XberGvr3qpADeUTJJPPmCydM=" className='header-logo' width="200" height="200" alt="" />
+                <img src="https://media.istockphoto.com/id/1189778189/vector/grandma-or-granny-mascot-character-cartoon-design-vector-format.jpg?s=612x612&w=0&k=20&c=tsQ6g2tZ325WP26Qyx_XberGvr3qpADeUTJJPPmCydM=" className='header-logo' width="189" height="200" alt="" />
                 <h3 className='header-title'>Grandma's Bakery</h3>
             </div>
             <div className='header-search'>
