@@ -83,6 +83,8 @@
     display: inline;
     object-position: 0px 50px ;
     padding: 0px;
+    font-size: 13px;
+    font-weight: 500;
 
 }
 
@@ -90,9 +92,13 @@
     align-items: center;
     margin-right: 50px;
     margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nav-itemNumber{
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 10px;  
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
