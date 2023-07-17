@@ -2,17 +2,23 @@ import React from "react";
 import './Product.css';
 
 
-function Product(){
-
+function Product({id, title,price,rating,image}){
     return(
         <div>
             <div className="product">
-                <img src="https://recipefairy.com/wp-content/uploads/2022/04/chocolate-cornet-on-a-plate.jpg" alt="" width="400" height="300"/>
+                <img src={image} alt="" width="400" height="300"/>
                 <div className="product-info">
-                    <p>Title</p>
-                    <p className="product-price">$30</p>
-                    <div className="product-rating">⭐</div>
-                    <button>Add</button>
+                    <p>{title}</p>
+                    <small>$</small>
+                    <strong>{price}</strong>
+                    {/* <div className="product-rating">
+                        {[...Array(rating)].fill.map((_,i)=>(
+                            return(<p>⭐</p>)
+                            ))}
+                    </div> */}
+                    <div>
+                        <button>Add</button>
+                    </div>
                 </div>
             </div>
         </div>
