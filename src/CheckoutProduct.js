@@ -2,16 +2,16 @@ import React from "react";
 import "./CheckoutProduct.css";
 
 
-function CheckoutProduct(){
+function CheckoutProduct({id, image, title, price}){
 
     return (
         <div className="checkout-product">
-            <img src="" alt="" className="checkout-img"/>
+            <img src={image} alt="" className="checkout-img"/>
             <div className="checkout-info">
-                <p className="checkout-product-title">kkk</p>
+                <p className="checkout-product-title">{title}</p>
                 <p className="checkout-product-price">
                     <small>$</small>
-                    <strong>9</strong>
+                    <strong>{price}</strong>
                 </p>
                 <button>Remove</button>
             </div>
